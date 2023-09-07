@@ -4,6 +4,19 @@
 
 ## digital dexterity
 ![My Skills](https://skillicons.dev/icons?i=c,cpp,python,html,css,bootstrap,javascript,java)
+
+---
+
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=SoumyaBokare&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=SoumyaBokare&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=SoumyaBokare&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+---
+## hologram me through
+<p>
+<a href"mailto:s.ranadive@somaiya.edu" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
 <!--
 **grilled-swampert/grilled-swampert** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
