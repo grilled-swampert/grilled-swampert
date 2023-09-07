@@ -1,5 +1,4 @@
 ![212284100-561aa473-3905-4a80-b561-0d28506553ee](https://github.com/grilled-swampert/grilled-swampert/assets/128573732/1b287ce7-8ed0-4cec-96b4-188b82dac9f3)
-![arcane-jinx](https://github.com/grilled-swampert/grilled-swampert/assets/128573732/7027208f-82ed-4cb0-b848-7cd354994bec)
 
 ---
 
