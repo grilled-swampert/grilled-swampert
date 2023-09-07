@@ -1,7 +1,3 @@
-### Hi there 👋
-![242390524-0c7eb6ed-663b-4ce4-bfbd-18239a38ba1b](https://github.com/grilled-swampert/grilled-swampert/assets/128573732/0455026a-29d6-45b0-ba8b-d364883c5db4)
-![225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9](https://github.com/grilled-swampert/grilled-swampert/assets/128573732/1b35b88f-a492-481f-b500-68152e96e120)
-![Uploading 235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif…]()
 ![212750996-938b257b-266c-45a7-9af7-655341c0f58b](https://github.com/grilled-swampert/grilled-swampert/assets/128573732/25eb1532-49a4-495a-83d0-9a528474f8ba)
 
 <!--
