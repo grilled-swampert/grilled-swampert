@@ -1,4 +1,5 @@
 ### Hi there 👋
+![242390524-0c7eb6ed-663b-4ce4-bfbd-18239a38ba1b](https://github.com/grilled-swampert/grilled-swampert/assets/128573732/0455026a-29d6-45b0-ba8b-d364883c5db4)
 
 <!--
 **grilled-swampert/grilled-swampert** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
