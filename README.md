@@ -7,10 +7,11 @@
 
 ---
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=grilled-swampert&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=grilled-swampert&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=grilled-swampert&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## tracking my steps
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=grilled-swampert&count_private=true&show_icons=true&&theme=react&include_all_commits=true" width = "47.5%">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=grilled-swampert&theme=react" width = "50%">
+</p>
 
 ---
 ## hologram me through
