@@ -1,4 +1,4 @@
-![05uhd2ihjs671](![f58fe8e19a7e25ddf0c459a3599261d6](https://github.com/grilled-swampert/grilled-swampert/assets/128573732/38f79fa3-9754-45ce-8adf-588934df3572))
+![Laboratory 研究室](https://github.com/grilled-swampert/grilled-swampert/assets/128573732/3b176ea9-2a2d-4591-aa14-6943e9b170df)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
