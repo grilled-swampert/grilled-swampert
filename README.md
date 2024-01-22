@@ -1,4 +1,4 @@
-![Laboratory 研究室](https://github.com/grilled-swampert/grilled-swampert/assets/128573732/3b176ea9-2a2d-4591-aa14-6943e9b170df)
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
