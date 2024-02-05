@@ -11,7 +11,7 @@
 [![Java](https://img.shields.io/badge/java-black?style=for-the-badge&logo=openjdk)](https://github.com/grilled-swampert)
 [![C++](https://img.shields.io/badge/c++-black?style=for-the-badge&logo=cplusplus)](https://github.com/grilled-swampert)
 [![C](https://img.shields.io/badge/c-black?style=for-the-badge&logo=c)](https://github.com/grilled-swampert)
-[![R](https://img.shields.io/badge/c-black?style=for-the-badge&logo=r)](https://github.com/grilled-swampert)
+[![R](https://img.shields.io/badge/r-black?style=for-the-badge&logo=r)](https://github.com/grilled-swampert)
 [![SQL](https://img.shields.io/badge/sql-black?style=for-the-badge&logo=mysql)](https://github.com/grilled-swampert)
 
 ### Technologies & Frameworks
