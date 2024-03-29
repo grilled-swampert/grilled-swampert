@@ -18,6 +18,7 @@
 [![HTML5](https://img.shields.io/badge/html5-black?style=for-the-badge&logo=html5)](https://github.com/grilled-swampert)
 [![Bootstrap](https://img.shields.io/badge/bootstrap-black?style=for-the-badge&logo=bootstrap)](https://github.com/grilled-swampert)
 [![CSS3](https://img.shields.io/badge/css3-black?style=for-the-badge&logo=css3)](https://github.com/grilled-swampert)
+[![TailwindCSS](https://img.shields.io/badge/css3-black?style=for-the-badge&logo=tailwindcss)](https://github.com/grilled-swampert)
 [![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react)](https://github.com/grilled-swampert)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-black?style=for-the-badge&logo=postgresql)](https://github.com/grilled-swampert)
 [![Node.js](https://img.shields.io/badge/Node.js-black?style=for-the-badge&logo=node.js)](https://github.com/grilled-swampert) 
