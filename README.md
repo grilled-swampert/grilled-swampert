@@ -13,8 +13,6 @@
 [![C](https://img.shields.io/badge/c-black?style=for-the-badge&logo=c)](https://github.com/grilled-swampert)
 [![R](https://img.shields.io/badge/r-black?style=for-the-badge&logo=r)](https://github.com/grilled-swampert)
 [![SQL](https://img.shields.io/badge/sql-black?style=for-the-badge&logo=mysql)](https://github.com/grilled-swampert)
-[![SQL](https://img.shields.io/badge/postgresql-black?style=for-the-badge&logo=postgresql)](https://github.com/grilled-swampert)
-
 
 ### Technologies & Frameworks
 [![HTML5](https://img.shields.io/badge/html5-black?style=for-the-badge&logo=html5)](https://github.com/grilled-swampert)
@@ -22,6 +20,9 @@
 [![CSS3](https://img.shields.io/badge/css3-black?style=for-the-badge&logo=css3)](https://github.com/grilled-swampert)
 [![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react)](https://github.com/grilled-swampert)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-black?style=for-the-badge&logo=postgresql)](https://github.com/grilled-swampert)
+
+### Cloud Services
+[![Firebase](https://img.shields.io/badge/Firebase-black?style=for-the-badge&logo=firebase)](https://github.com/grilled-swampert)
 
 ### OS
 [![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/MinavKaria)
