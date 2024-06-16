@@ -13,6 +13,7 @@
 [![C](https://img.shields.io/badge/c-black?style=for-the-badge&logo=c)](https://github.com/grilled-swampert)
 [![R](https://img.shields.io/badge/r-black?style=for-the-badge&logo=r)](https://github.com/grilled-swampert)
 [![SQL](https://img.shields.io/badge/sql-black?style=for-the-badge&logo=mysql)](https://github.com/grilled-swampert)
+[![Rust](https://img.shields.io/badge/rust-black?style=for-the-badge&logo=rust)](https://github.com/grilled-swampert)
 
 ### Technologies & Frameworks
 [![HTML5](https://img.shields.io/badge/html5-black?style=for-the-badge&logo=html5)](https://github.com/grilled-swampert)
