@@ -21,6 +21,7 @@
 [![CSS3](https://img.shields.io/badge/css3-black?style=for-the-badge&logo=css3)](https://github.com/grilled-swampert)
 [![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react)](https://github.com/grilled-swampert)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-black?style=for-the-badge&logo=postgresql)](https://github.com/grilled-swampert)
+[![Figma](https://img.shields.io/badge/Figma-black?style=for-the-badge&logo=figma)](https://github.com/grilled-swampert)
 
 ### Cloud Services
 [![Firebase](https://img.shields.io/badge/Firebase-black?style=for-the-badge&logo=firebase)](https://github.com/grilled-swampert)
