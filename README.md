@@ -1,53 +1,60 @@
 
 
-<h3 align="left">Connect with me:</h3>
+# Swapnil Ranadive
+
+## About Me
+Welcome to my GitHub profile! I'm passionate about technology and always eager to learn new things.
+
+## Connect with me
 <p align="left">
-<a href="https://www.linkedin.com/in/swapnil-ranadive-953725254/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedln" height="30" width="40" /></a>  
+  <a href="https://www.linkedin.com/in/swapnil-ranadive-953725254/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
 </p>
 
+## Skills
+
 ### Languages
-[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/grilled-swampert)
-[![JavaScript](https://img.shields.io/badge/javascript-black?style=for-the-badge&logo=javascript)](https://github.com/grilled-swampert)
-[![Java](https://img.shields.io/badge/java-black?style=for-the-badge&logo=openjdk)](https://github.com/grilled-swampert)
-[![C++](https://img.shields.io/badge/c++-black?style=for-the-badge&logo=cplusplus)](https://github.com/grilled-swampert)
-[![C](https://img.shields.io/badge/c-black?style=for-the-badge&logo=c)](https://github.com/grilled-swampert)
-[![R](https://img.shields.io/badge/r-black?style=for-the-badge&logo=r)](https://github.com/grilled-swampert)
-[![SQL](https://img.shields.io/badge/sql-black?style=for-the-badge&logo=mysql)](https://github.com/grilled-swampert)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### Technologies & Frameworks
-[![HTML5](https://img.shields.io/badge/html5-black?style=for-the-badge&logo=html5)](https://github.com/grilled-swampert)
-[![Bootstrap](https://img.shields.io/badge/bootstrap-black?style=for-the-badge&logo=bootstrap)](https://github.com/grilled-swampert)
-[![CSS3](https://img.shields.io/badge/css3-black?style=for-the-badge&logo=css3)](https://github.com/grilled-swampert)
-[![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react)](https://github.com/grilled-swampert)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-black?style=for-the-badge&logo=postgresql)](https://github.com/grilled-swampert)
-[![Figma](https://img.shields.io/badge/Figma-black?style=for-the-badge&logo=figma)](https://github.com/grilled-swampert)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ### Cloud Services
-[![Firebase](https://img.shields.io/badge/Firebase-black?style=for-the-badge&logo=firebase)](https://github.com/grilled-swampert)
-[![Vercel](https://img.shields.io/badge/vercel-black?style=for-the-badge&logo=vercel)](https://github.com/grilled-swampert)
-[![Netlify](https://img.shields.io/badge/netlify-black?style=for-the-badge&logo=netlify)](https://github.com/grilled-swampert)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-### OS
-[![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/MinavKaria)
+### Operating System
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=grilled-swampert&layout=compact)
+---
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=grilled-swampert&hide=html&hide_border=true&layout=compact&langs_count=8&theme=highcontrast" alt="Top Languages">
-    </td>
-    <td>
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=grilled-swampert&theme=highcontrast&hide_border=true" alt="Repos Per Language">
-    </td>
-    <td>
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=grilled-swampert&theme=highcontrast&hide_border=true" alt="Most Commit Language">
-    </td>
-  </tr>
-</table>
+Feel free to check out my repositories and don't hesitate to reach out if you'd like to collaborate on a project!
 
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=grilled-swampert&hide=html&hide_border=true&layout=compact&langs_count=8&theme=highcontrast" alt="Top Languages">
+      </td>
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=grilled-swampert&theme=highcontrast&hide_border=true" alt="Repos Per Language">
+      </td>
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=grilled-swampert&theme=highcontrast&hide_border=true" alt="Most Commit Language">
+      </td>
+    </tr>
+  </table>
+  <img src="https://github-readme-stats.vercel.app/api?username=grilled-swampert&hide_border=true&border_radius=15&show_icons=true&theme=highcontrast" alt="grilld-swampert's GitHub stats">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=grilled-swampert&theme=highcontrast&hide_border=true">
 </div>
-
-<img src="https://github-readme-stats.vercel.app/api?username=grilled-swampert&hide_border=true&border_radius=15&show_icons=true&theme=highcontrast" alt="grilld-swampert's GitHub stats">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=grilled-swampert&theme=highcontrast&hide_border=true">
