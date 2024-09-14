@@ -38,16 +38,16 @@
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=grilld-swampert&hide=html&hide_border=true&layout=compact&langs_count=8&theme=highcontrast" alt="Top Languages">
     </td>
     <td>
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=grilld-swampert&theme=highcontrast&hide_border=true" alt="Repos Per Language">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=grilled-swampert&theme=highcontrast&hide_border=true" alt="Repos Per Language">
     </td>
     <td>
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=grilld-swampert&theme=highcontrast&hide_border=true" alt="Most Commit Language">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=grilled-swampert&theme=highcontrast&hide_border=true" alt="Most Commit Language">
     </td>
   </tr>
 </table>
 
 </div>
 
-<img src="https://github-readme-stats.vercel.app/api?username=grilld-swampert&hide_border=true&border_radius=15&show_icons=true&theme=highcontrast" alt="grilld-swampert's GitHub stats">
+<img src="https://github-readme-stats.vercel.app/api?username=grilled-swampert&hide_border=true&border_radius=15&show_icons=true&theme=highcontrast" alt="grilld-swampert's GitHub stats">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=grilld-swampert&theme=highcontrast&hide_border=true">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=grilled-swampert&theme=highcontrast&hide_border=true">
