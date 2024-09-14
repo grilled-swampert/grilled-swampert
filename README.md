@@ -1,11 +1,11 @@
 
 
-# Swapnil Ranadive
+# crisplettuce
 
 ## About Me
-Welcome to my GitHub profile! I'm passionate about technology and always eager to learn new things.
+To be added.
 
-## Connect with me
+## Hit Me Up
 <p align="left">
   <a href="https://www.linkedin.com/in/swapnil-ranadive-953725254/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
 </p>
