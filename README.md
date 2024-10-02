@@ -3,7 +3,7 @@
 # crisplettuce
 
 ## About Me
-To be added.
+Portfolio website in the working.
 
 ## Hit Me Up
 <p align="left">
