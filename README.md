@@ -12,35 +12,35 @@ Always up for growing innovative ideas and exploring new tech landscapes. 🌱
 Here are the tools and technologies in my arsenal:  
 
 ### 🌍 **Languages**
-- ![Python](https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-- ![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-- ![C++](https://img.shields.io/badge/C++-%2300599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-- ![C](https://img.shields.io/badge/C-%2300599C?style=for-the-badge&logo=c&logoColor=white)
-- ![R](https://img.shields.io/badge/R-%23276DC3?style=for-the-badge&logo=r&logoColor=white)
-- ![SQL](https://img.shields.io/badge/SQL-%234479A1?style=for-the-badge&logo=mysql&logoColor=white)  
+![Python](https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-%2300599C?style=for-the-badge&logo=c&logoColor=white)
+![R](https://img.shields.io/badge/R-%23276DC3?style=for-the-badge&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-%234479A1?style=for-the-badge&logo=mysql&logoColor=white)  
 
 ---
 
 ### 🔧 **Frameworks & Tech**
-- ![React](https://img.shields.io/badge/React-%2320232A?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-- ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
-- ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192?style=for-the-badge&logo=postgresql&logoColor=white)
-- ![Node.js](https://img.shields.io/badge/Node.js-%2343853D?style=for-the-badge&logo=node.js&logoColor=white)
-- ![Express.js](https://img.shields.io/badge/Express.js-%23404D59?style=for-the-badge&logo=express&logoColor=white)
+![React](https://img.shields.io/badge/React-%2320232A?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-%2343853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-%23404D59?style=for-the-badge&logo=express&logoColor=white)
 
 ---
 
 ### ☁️ **Cloud Services**
-- ![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-- ![Vercel](https://img.shields.io/badge/Vercel-%23000000?style=for-the-badge&logo=vercel&logoColor=white)
-- ![Netlify](https://img.shields.io/badge/Netlify-%2300C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-%23000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-%2300C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 ---
 
 ### 🖥 **Operating System**
-- ![Windows](https://img.shields.io/badge/Windows-%230078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-%230078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 ---
 
