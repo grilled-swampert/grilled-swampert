@@ -73,7 +73,6 @@ Feel free to check out my repositories and don't hesitate to reach out if you'd 
       </td>
     </tr>
   </table>
-  <img src="https://github-readme-stats.vercel.app/api?username=grilled-swampert&hide_border=true&border_radius=15&show_icons=true&theme=highcontrast" alt="grilld-swampert's GitHub stats">
-  ![crisplettuce's GitHub stats](https://github-readme-stats.vercel.app/api?username=grilled-swampert&show_icons=true&theme=radical)
+  <img src="https://github-readme-stats.vercel.app/api?username=grilled-swampert&hide_border=true&border_radius=15&show_icons=true&theme=highcontrast" alt="grilled-swampert's GitHub stats">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=grilled-swampert&theme=highcontrast&hide_border=true">
 </div>
