@@ -2,10 +2,7 @@
 
 # crisplettuce
 
-_Welcome to my corner of the digital farm!_ 🍃  
-Currently cultivating skills in **Blockchain** and **Machine Learning** 🚜  
-Always up for growing innovative ideas and exploring new tech landscapes. 🌱  
-
+Currently cooking skills in **Blockchain** and **Machine Learning** 
 ---
 
 ## 🛠 **Skills Barn**  
