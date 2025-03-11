@@ -24,8 +24,8 @@ jobs:
 
     - name: Run Stats Script
       env:
-        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub API Token
-        USER_NAME: ${{ secrets.USER_NAME }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # GitHub API Token
+        USER_NAME: ${{ github.repository_owner }}
       run: |
         python main.py
 
