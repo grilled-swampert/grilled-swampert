@@ -26,7 +26,7 @@ text, tspan {white-space: pre;}
 <tspan x="50" y="90" class="cc">. </tspan>
 <tspan x="50" y="110" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">Python, JavaScript, C++, SQL</tspan>
 <tspan x="50" y="130" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">English</tspan>
-<tspan x="50" y="150" class="cc">. </tspan><tspan class="key">Frameworks</tspan> ......... </tspan>ReactJs, Node.js, React Native Expo<tspan class="value"></tspan>
+<tspan x="50" y="150" class="cc">. </tspan><tspan class="key">Frameworks</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">ReactJs, Node.js, React Native Expo</tspan>
 <tspan x="50" y="210" class="cc">. </tspan>
 <tspan x="50" y="230" class="cc">. </tspan><tspan class="key">Hobbies</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Music, Minecraft, Football</tspan>
 <tspan x="50" y="250">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
