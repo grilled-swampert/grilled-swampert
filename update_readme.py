@@ -3,8 +3,7 @@ import hashlib
 from datetime import datetime
 
 # GitHub username & token (For private repo access)
-USERNAME = "YOUR_GITHUB_USERNAME"
-TOKEN = "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"  # Replace with your actual GitHub PAT
+USERNAME = "grilled-swampert"
 
 # Personal details
 SPOKEN_LANGUAGES = ["English", "Hindi"]
