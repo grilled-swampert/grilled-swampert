@@ -1,10 +1,10 @@
 import requests
-import json
+import hashlib
 from datetime import datetime
 
-# GitHub username
+# GitHub username & token (For private repo access)
 USERNAME = "YOUR_GITHUB_USERNAME"
-TOKEN = "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"  # Needed for private repo access
+TOKEN = "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"  # Replace with your actual GitHub PAT
 
 # Personal details
 SPOKEN_LANGUAGES = ["English", "Hindi"]
@@ -19,7 +19,6 @@ HEADERS = {"Authorization": f"token {TOKEN}"}
 # GitHub API URLs
 GITHUB_API = f"https://api.github.com/users/{USERNAME}"
 GITHUB_REPOS_API = f"https://api.github.com/user/repos"
-GITHUB_STATS_API = f"https://api.github.com/repos/{USERNAME}/{USERNAME}/stats/contributors"
 
 # Fetch GitHub Profile Data
 response = requests.get(GITHUB_API, headers=HEADERS)
@@ -41,7 +40,7 @@ if response.status_code == 200:
     total_forks = sum(repo["forks_count"] for repo in repos_data)
     total_watchers = sum(repo["watchers_count"] for repo in repos_data)
 
-    # Fetch Commit Stats (Lifetime Commits)
+    # Fetch commit stats (lifetime commits)
     total_commits = 0
     additions = 0
     deletions = 0
@@ -115,11 +114,23 @@ _Last updated on: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}_
 🚀 *This README updates automatically every 24 hours!*
     """
 
-    # Write to README.md
-    with open("README.md", "w", encoding="utf-8") as file:
-        file.write(readme_content)
+    # Compute checksum of new README content
+    new_readme_hash = hashlib.md5(readme_content.encode()).hexdigest()
 
-    print("README updated successfully!")
+    # Read old README (if exists)
+    try:
+        with open("README.md", "r", encoding="utf-8") as file:
+            old_readme_hash = hashlib.md5(file.read().encode()).hexdigest()
+    except FileNotFoundError:
+        old_readme_hash = None  # If file doesn’t exist, force update
+
+    # Only update the file if content changed
+    if new_readme_hash != old_readme_hash:
+        with open("README.md", "w", encoding="utf-8") as file:
+            file.write(readme_content)
+        print("README updated successfully!")
+    else:
+        print("No changes detected. Skipping update.")
 
 else:
     print("Failed to fetch GitHub data")
