@@ -13,15 +13,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch GitHub Stats
-        run: |
-          curl -s "https://api.github.com/users/grilled-swampert" > github_stats.json
-          echo "### GitHub Stats" > README.md
-          echo "- **Public Repositories:** $(jq '.public_repos' github_stats.json)" >> README.md
-          echo "- **Followers:** $(jq '.followers' github_stats.json)" >> README.md
-          echo "- **Following:** $(jq '.following' github_stats.json)" >> README.md
-          echo "- **Account Created:** $(jq '.created_at' github_stats.json)" >> README.md
-          echo "- **Last Updated:** $(date)" >> README.md
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run Python Script
+        run: python update_readme.py
 
       - name: Commit and Push Changes
         run: |
