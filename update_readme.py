@@ -1,11 +1,9 @@
 import requests
 import json
-import os
 from datetime import datetime
 
-# GitHub Username & Token
-USERNAME = os.environ("GITHUB_USERNAME")  # Replace with your actual username
-GITHUB_TOKEN = os.environ("GITHUB_TOKEN")  # Replace with your personal access token
+# GitHub username
+USERNAME = "grilled-swampert"
 
 # Personal details
 SPOKEN_LANGUAGES = ["English", "Hindi"]  # Update as needed
@@ -14,93 +12,43 @@ EMAIL_PERSONAL = "yourpersonal@example.com"
 EMAIL_WORK = "yourwork@example.com"
 LINKEDIN = "https://linkedin.com/in/YOUR_LINKEDIN"
 
-# GraphQL Query
-GRAPHQL_QUERY = """
-{
-  viewer {
-    login
-    name
-    bio
-    createdAt
-    repositories(first: 100, ownerAffiliations: OWNER) {
-      totalCount
-      nodes {
-        name
-        stargazers {
-          totalCount
-        }
-        forks {
-          totalCount
-        }
-        primaryLanguage {
-          name
-        }
-        defaultBranchRef {
-          target {
-            ... on Commit {
-              history(first: 1) {
-                totalCount
-              }
-            }
-          }
-        }
-        size
-      }
-    }
-    contributionsCollection {
-      contributionCalendar {
-        totalContributions
-      }
-    }
-    followers {
-      totalCount
-    }
-    following {
-      totalCount
-    }
-    pullRequests(first: 100) {
-      totalCount
-    }
-    issues(first: 100) {
-      totalCount
-    }
-  }
-}
-"""
+# GitHub API URLs
+GITHUB_API = f"https://api.github.com/users/{USERNAME}"
+GITHUB_REPOS_API = f"https://api.github.com/users/{USERNAME}/repos"
+GITHUB_EVENTS_API = f"https://api.github.com/users/{USERNAME}/events"
 
-# Send GraphQL Request
-response = requests.post(
-    "https://api.github.com/graphql",
-    json={"query": GRAPHQL_QUERY},
-    headers={"Authorization": f"Bearer {GITHUB_TOKEN}"}
-)
-
+# Fetch GitHub Profile Data
+response = requests.get(GITHUB_API)
 if response.status_code == 200:
-    data = response.json()["data"]["viewer"]
+    data = response.json()
 
-    # Account Stats
-    created_at = data["createdAt"]
+    # GitHub Stats
+    created_at = data["created_at"]
     account_age = (datetime.utcnow() - datetime.strptime(created_at, "%Y-%m-%dT%H:%M:%SZ")).days // 365
-    total_repos = data["repositories"]["totalCount"]
-    total_followers = data["followers"]["totalCount"]
-    total_following = data["following"]["totalCount"]
-    total_contributions = data["contributionsCollection"]["contributionCalendar"]["totalContributions"]
-    total_pull_requests = data["pullRequests"]["totalCount"]
-    total_issues = data["issues"]["totalCount"]
+    total_repos = data["public_repos"]
+    total_followers = data["followers"]
+    total_following = data["following"]
 
-    # Aggregate repo statistics
-    total_stars = sum(repo["stargazers"]["totalCount"] for repo in data["repositories"]["nodes"])
-    total_forks = sum(repo["forks"]["totalCount"] for repo in data["repositories"]["nodes"])
-    total_commits = sum(repo["defaultBranchRef"]["target"]["history"]["totalCount"] for repo in data["repositories"]["nodes"] if repo["defaultBranchRef"])
-    total_loc = sum(repo["size"] * 100 for repo in data["repositories"]["nodes"])  # Approximate LOC
+    # Fetch repositories data
+    repos_data = requests.get(GITHUB_REPOS_API).json()
+    total_stars = sum(repo["stargazers_count"] for repo in repos_data)
+    total_forks = sum(repo["forks_count"] for repo in repos_data)
 
-    # Most used languages
-    language_count = {}
-    for repo in data["repositories"]["nodes"]:
-        lang = repo["primaryLanguage"]
-        if lang:
-            language_count[lang["name"]] = language_count.get(lang["name"], 0) + 1
-    top_languages = sorted(language_count.items(), key=lambda x: x[1], reverse=True)[:5]  # Top 5 languages
+    # Fetch commit count
+    commit_count = 0
+    try:
+        events_data = requests.get(GITHUB_EVENTS_API).json()
+        commit_count = sum(1 for event in events_data if event["type"] == "PushEvent")
+    except:
+        pass  # Skip if error fetching events
+
+    # Fetch total contributions
+    total_contributions = sum(
+        repo["open_issues_count"] for repo in repos_data
+    )  # Approximation for contributions
+
+    # Compute total lines of code (approximate using repo sizes)
+    total_loc = sum(repo["size"] for repo in repos_data) * 100  # Approximate LOC
 
     # Generate README Content
     readme_content = f"""
@@ -111,15 +59,12 @@ if response.status_code == 200:
 - **Repositories:** {total_repos}
 - **Stars:** {total_stars}
 - **Forks:** {total_forks}
-- **Commits:** {total_commits}
+- **Commits:** {commit_count}
 - **Contributions:** {total_contributions}
-- **Pull Requests:** {total_pull_requests}
-- **Issues Opened:** {total_issues}
 - **Lines of Code on GitHub:** {total_loc}
 
 ## 🛠️ Skills & Interests
 - **Programming Languages:** {", ".join(PROGRAMMING_LANGUAGES)}
-- **Most Used GitHub Languages:** {", ".join([lang[0] for lang in top_languages])}
 - **Spoken Languages:** {", ".join(SPOKEN_LANGUAGES)}
 
 ## 📬 Contact Information
@@ -138,4 +83,4 @@ _Last updated on: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}_
     print("README updated successfully!")
 
 else:
-    print("Failed to fetch GitHub data:", response.text)
+    print("Failed to fetch GitHub data")
