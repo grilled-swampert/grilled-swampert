@@ -28,11 +28,15 @@ if response.status_code == 200:
     total_repos = data["public_repos"]
     total_followers = data["followers"]
     total_following = data["following"]
+    name = data["name"]
+    bio = data["bio"]
+    blog = data["blog"]
 
     # Fetch repositories data
     repos_data = requests.get(GITHUB_REPOS_API).json()
     total_stars = sum(repo["stargazers_count"] for repo in repos_data)
     total_forks = sum(repo["forks_count"] for repo in repos_data)
+    total_watchers = sum(repo["watchers_count"] for repo in repos_data)
 
     # Fetch commit count
     commit_count = 0
@@ -52,20 +56,47 @@ if response.status_code == 200:
 
     # Generate README Content
     readme_content = f"""
-# Hello, I'm {USERNAME}! 👋
+# Hello, I'm {name or USERNAME}! 👋
 
-## 🌟 GitHub Stats
-- **GitHub Age:** {account_age} years
-- **Repositories:** {total_repos}
-- **Stars:** {total_stars}
-- **Forks:** {total_forks}
-- **Commits:** {commit_count}
-- **Contributions:** {total_contributions}
-- **Lines of Code on GitHub:** {total_loc}
+## 📌 About Me
+- **GitHub Username:** {USERNAME}
+- **Bio:** {bio if bio else 'No bio available'}
+- **Blog:** {blog if blog else 'No blog available'}
+- **GitHub Account Age:** {account_age} years (Since {created_at.split('T')[0]})
+- **Followers:** {total_followers} | **Following:** {total_following}
 
-## 🛠️ Skills & Interests
+## 📊 GitHub Stats
+- **Public Repositories:** {total_repos}
+- **Total Stars:** {total_stars}
+- **Total Forks:** {total_forks}
+- **Total Watchers:** {total_watchers}
+- **Total Commits:** {commit_count}
+- **Total Contributions:** {total_contributions} (Approximation based on open issues)
+- **Lines of Code on GitHub (Approx):** {total_loc}
+
+## 🛠️ My Skills & Interests
 - **Programming Languages:** {", ".join(PROGRAMMING_LANGUAGES)}
 - **Spoken Languages:** {", ".join(SPOKEN_LANGUAGES)}
+
+## 🖥️ My GitHub Stats Dashboard
+
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&hide=html&hide_border=true&layout=compact&langs_count=8&theme=synthwave" alt="Top Languages">
+      </td>
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username={USERNAME}&theme=synthwave&hide_border=true" alt="Repos Per Language">
+      </td>
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username={USERNAME}&theme=synthwave&hide_border=true" alt="Most Commit Language">
+      </td>
+    </tr>
+  </table>
+  <img src="https://github-readme-stats.vercel.app/api?username={USERNAME}&show_icons=true&theme=synthwave" alt="{USERNAME}'s GitHub stats">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={USERNAME}&theme=synthwave&hide_border=true">
+</div>
 
 ## 📬 Contact Information
 - **Personal Email:** {EMAIL_PERSONAL}
