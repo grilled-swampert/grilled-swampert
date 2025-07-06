@@ -1,4 +1,4 @@
-🚧 *Software Update in Progress* 🚧
+🚧 **Software Update in Progress** 🚧
 
 <a href="https://github.com/grilled-swampert/grilled-swampert">
   <picture>
