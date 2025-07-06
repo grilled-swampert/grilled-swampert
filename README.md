@@ -7,4 +7,5 @@
   </picture>
 </a>
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/user7519fE?theme=dark&font=Bebas%20Neue)
+<img src="https://leetcard.jacoblin.cool/user7519fE?theme=dark&font=Bebas%20Neue" alt="LeetCode Stats" style="width:100%;">
+
