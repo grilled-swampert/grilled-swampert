@@ -1,4 +1,8 @@
-🚧 **Software Update in Progress** 🚧
+**software update 2.0.1 rolled out** 
+
+<p align="center">
+  <em>now experimenting with data pipelines & quant stuff.</em>  
+</p>
 
 <a href="https://github.com/grilled-swampert/grilled-swampert">
   <picture>
