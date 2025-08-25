@@ -1,6 +1,6 @@
 **software update 2.0.1 rolled out** 
 
-<p align="center">
+<p>
   <em>now experimenting with data pipelines & quant stuff.</em>  
 </p>
 
