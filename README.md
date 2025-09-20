@@ -1,7 +1,5 @@
-**software update 2.0.1 rolled out** 
-
 <p>
-  <em>now experimenting with data pipelines & quant stuff.</em>  
+  <em>Each commit a small lantern in the darkness of the unknown.</em>  
 </p>
 
 <a href="https://github.com/grilled-swampert/grilled-swampert">
