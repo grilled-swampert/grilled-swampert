@@ -23,10 +23,10 @@ text, tspan {white-space: pre;}
 <tspan x="50" y="90" class="cc"> </tspan>
 <tspan x="50" y="110" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Programming</tspan><tspan class="cc">: .................................... </tspan><tspan class="value">Python, JavaScript, C++, SQL</tspan>
 <tspan x="50" y="130" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Spoken</tspan><tspan class="cc">: ................................................................ </tspan><tspan class="value">English</tspan>
-<tspan x="50" y="150" class="cc">. </tspan><tspan class="key">Frameworks &amp; Tools</tspan><tspan class="cc">: ........................................ </tspan><tspan class="value">React.js, Node.js, Next.js, React Native Expo, Express.js, TailwindCSS</tspan>
+<tspan x="50" y="150" class="cc">. </tspan><tspan class="key">Frameworks &amp; Tools</tspan><tspan class="cc">: .................. </tspan><tspan class="value">React.js, Node.js, Next.js, Express.js, TailwindCSS</tspan>
 <tspan x="50" y="170" class="cc">. </tspan><tspan class="key">Databases</tspan><tspan class="cc">: ............................................. </tspan><tspan class="value">MongoDB, MySQL, PostgreSQL</tspan>
-<tspan x="50" y="190" class="cc">. </tspan><tspan class="key">Data &amp; ML</tspan><tspan class="cc">: ............................................. </tspan><tspan class="value">OpenCV, PyTorch, Scikit-learn, Pandas, NumPy</tspan>
-<tspan x="50" y="210" class="cc">. </tspan><tspan class="key">DevOps &amp; OS</tspan><tspan class="cc">: ............................................. </tspan><tspan class="value">Git, Docker, OpenShift, Unix/Linux, GitHub Actions</tspan>
+<tspan x="50" y="190" class="cc">. </tspan><tspan class="key">Data &amp; ML</tspan><tspan class="cc">: ..................................... </tspan><tspan class="value">OpenCV, PyTorch, Scikit-learn, Pandas, NumPy</tspan>
+<tspan x="50" y="210" class="cc">. </tspan><tspan class="key">DevOps &amp; OS</tspan><tspan class="cc">: ............................. </tspan><tspan class="value">Git, Docker, OpenShift, Unix/Linux, GitHub Actions</tspan>
 <tspan x="50" y="230" class="cc"> </tspan>
 <tspan x="50" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan><tspan class="cc">: .................................................... </tspan><tspan class="value">Music, Minecraft, Football</tspan>
 <tspan x="50" y="270" class="cc">- GitHub Stats ————————————————————————————————————————————————————————————————————————</tspan>
