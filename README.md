@@ -10,6 +10,6 @@
 </a>
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/user7519fE?theme=dark&font=Bebas%20Neue" alt="LeetCode Stats" style="width:70%;">
+  <img src="https://leetcard.jacoblin.cool/user7519fE?theme=dark&font=Bebas%20Neue" alt="LeetCode Stats" style="width:72%;">
 </p>
 
