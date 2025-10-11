@@ -13,3 +13,4 @@
   <img src="https://leetcard.jacoblin.cool/user7519fE?theme=dark&font=Bebas%20Neue" alt="LeetCode Stats" style="width:72%;">
 </p>
 
+![Github Trophy](https://github-profile-trophy.vercel.app/?username=grilled-swampert&theme=discord)
