@@ -1,5 +1,5 @@
 <p>
-  <em>Each commit a small lantern in the darkness of the unknown.</em>  
+  <em>Each commit a small lantern in the darkness of the unknown. </em>  
 </p>
 
 <a href="https://github.com/grilled-swampert/grilled-swampert">
